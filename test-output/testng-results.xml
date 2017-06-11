@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28094" started-at="2017-06-11T23:17:43Z" finished-at="2017-06-11T23:18:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28094" started-at="2017-06-11T23:17:43Z" finished-at="2017-06-11T23:18:11Z">
+      <class name="com.selenium.life.test.GenerateLifeInsuranceQuoteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="setup" is-config="true" duration-ms="8970" started-at="2017-06-12T09:17:43Z" finished-at="2017-06-12T09:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="openBrowser" duration-ms="15006" started-at="2017-06-12T09:17:52Z" finished-at="2017-06-12T09:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getLifeQuoteIsClicked()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="getLifeQuoteIsClicked" duration-ms="114" started-at="2017-06-12T09:18:07Z" depends-on-methods="com.selenium.life.test.GenerateLifeInsuranceQuoteTest.openBrowser" finished-at="2017-06-12T09:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLifeQuoteIsClicked -->
+        <test-method status="PASS" signature="generateQuote()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="generateQuote" duration-ms="2866" started-at="2017-06-12T09:18:07Z" depends-on-methods="com.selenium.life.test.GenerateLifeInsuranceQuoteTest.getLifeQuoteIsClicked" finished-at="2017-06-12T09:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateQuote -->
+        <test-method status="PASS" signature="quoteAmountIsDisplayed()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="quoteAmountIsDisplayed" duration-ms="790" started-at="2017-06-12T09:18:10Z" depends-on-methods="com.selenium.life.test.GenerateLifeInsuranceQuoteTest.generateQuote" finished-at="2017-06-12T09:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quoteAmountIsDisplayed -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.selenium.life.test.GenerateLifeInsuranceQuoteTest@5c3bd550]" name="end" is-config="true" duration-ms="134" started-at="2017-06-12T09:18:11Z" finished-at="2017-06-12T09:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.selenium.life.test.GenerateLifeInsuranceQuoteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
